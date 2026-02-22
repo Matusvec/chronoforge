@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000001 /* ChronoForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000001; };
+		A100000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000002; };
+		A100000003 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000003; };
+		A100000004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000004; };
+		A100000005 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000005; };
+		A100000006 /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000006; };
+		A100000007 /* ChronoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000007; };
+		A100000008 /* PlanCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000008; };
+		A100000009 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000009; };
+		A100000010 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000010; };
+		A100000011 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000011; };
+		A100000012 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000012; };
+		A100000013 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000013; };
+		A100000014 /* GoalsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000014; };
+		A100000015 /* GoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000015; };
+		A100000016 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000016; };
+		A100000017 /* PlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000017; };
+		A100000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000018; };
+		A100000020 /* ChronoForgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000020; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C100000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D100000001;
+			proxyType = 1;
+			remoteGlobalIDString = E100000001;
+			remoteInfo = ChronoForge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B100000001 /* ChronoForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoForgeApp.swift; sourceTree = "<group>"; };
+		B100000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B100000003 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		B100000004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B100000005 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B100000006 /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
+		B100000007 /* ChronoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoRepository.swift; sourceTree = "<group>"; };
+		B100000008 /* PlanCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCache.swift; sourceTree = "<group>"; };
+		B100000009 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B100000010 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B100000011 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B100000012 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B100000013 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		B100000014 /* GoalsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListView.swift; sourceTree = "<group>"; };
+		B100000015 /* GoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewModel.swift; sourceTree = "<group>"; };
+		B100000016 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		B100000017 /* PlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewModel.swift; sourceTree = "<group>"; };
+		B100000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B100000020 /* ChronoForgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoForgeTests.swift; sourceTree = "<group>"; };
+		F100000001 /* ChronoForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChronoForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F100000002 /* ChronoForgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronoForgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FW10000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FW10000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G100000001 = {
+			isa = PBXGroup;
+			children = (
+				G100000002 /* ChronoForge */,
+				G100000013 /* ChronoForgeTests */,
+				G100000014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G100000002 /* ChronoForge */ = {
+			isa = PBXGroup;
+			children = (
+				G100000003 /* App */,
+				G100000004 /* Domain */,
+				G100000006 /* Data */,
+				G100000009 /* UI */,
+				G100000012 /* Services */,
+				B100000018 /* Assets.xcassets */,
+			);
+			path = ChronoForge;
+			sourceTree = "<group>";
+		};
+		G100000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B100000001 /* ChronoForgeApp.swift */,
+				B100000002 /* RootView.swift */,
+				B100000003 /* DependencyContainer.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G100000004 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				G100000005 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		G100000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B100000004 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G100000006 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				G100000007 /* Network */,
+				G100000008 /* Repositories */,
+				G10000008B /* Cache */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		G100000007 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B100000005 /* APIClient.swift */,
+				B100000006 /* MockAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		G100000008 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B100000007 /* ChronoRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		G10000008B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				B100000008 /* PlanCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		G100000009 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				G10000009A /* Onboarding */,
+				G10000009B /* Dashboard */,
+				G10000009C /* Goals */,
+				G10000009D /* Plan */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		G10000009A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B100000011 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		G10000009B /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B100000012 /* DashboardView.swift */,
+				B100000013 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		G10000009C /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				B100000014 /* GoalsListView.swift */,
+				B100000015 /* GoalsViewModel.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		G10000009D /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				B100000016 /* PlanView.swift */,
+				B100000017 /* PlanViewModel.swift */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		G100000012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B100000009 /* AuthManager.swift */,
+				B100000010 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G100000013 /* ChronoForgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B100000020 /* ChronoForgeTests.swift */,
+			);
+			path = ChronoForgeTests;
+			sourceTree = "<group>";
+		};
+		G100000014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F100000001 /* ChronoForge.app */,
+				F100000002 /* ChronoForgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E100000001 /* ChronoForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X100000003;
+			buildPhases = (
+				S100000001 /* Sources */,
+				FW10000001 /* Frameworks */,
+				R100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChronoForge;
+			productName = ChronoForge;
+			productReference = F100000001;
+			productType = "com.apple.product-type.application";
+		};
+		E100000002 /* ChronoForgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X100000006;
+			buildPhases = (
+				S100000002 /* Sources */,
+				FW10000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP0000001 /* PBXTargetDependency */,
+			);
+			name = ChronoForgeTests;
+			productName = ChronoForgeTests;
+			productReference = F100000002;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E100000002 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E100000001;
+					};
+				};
+			};
+			buildConfigurationList = X100000001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G100000001;
+			productRefGroup = G100000014;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E100000001 /* ChronoForge */,
+				E100000002 /* ChronoForgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001 /* ChronoForgeApp.swift in Sources */,
+				A100000002 /* RootView.swift in Sources */,
+				A100000003 /* DependencyContainer.swift in Sources */,
+				A100000004 /* Models.swift in Sources */,
+				A100000005 /* APIClient.swift in Sources */,
+				A100000006 /* MockAPIClient.swift in Sources */,
+				A100000007 /* ChronoRepository.swift in Sources */,
+				A100000008 /* PlanCache.swift in Sources */,
+				A100000009 /* AuthManager.swift in Sources */,
+				A100000010 /* NotificationService.swift in Sources */,
+				A100000011 /* OnboardingView.swift in Sources */,
+				A100000012 /* DashboardView.swift in Sources */,
+				A100000013 /* DashboardViewModel.swift in Sources */,
+				A100000014 /* GoalsListView.swift in Sources */,
+				A100000015 /* GoalsViewModel.swift in Sources */,
+				A100000016 /* PlanView.swift in Sources */,
+				A100000017 /* PlanViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		S100000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000020 /* ChronoForgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEP0000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E100000001;
+			targetProxy = C100000001;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		X100000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		X10000002R /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.9;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		X100000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronoforge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		X100000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronoforge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		X100000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronoforge.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChronoForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChronoForge";
+			};
+			name = Debug;
+		};
+		X100000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronoforge.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChronoForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChronoForge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		X100000001 /* Build configuration list for PBXProject "ChronoForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X100000002 /* Debug */,
+				X10000002R /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X100000003 /* Build configuration list for PBXNativeTarget "ChronoForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X100000004 /* Debug */,
+				X100000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X100000006 /* Build configuration list for PBXNativeTarget "ChronoForgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X100000007 /* Debug */,
+				X100000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = D100000001;
+}

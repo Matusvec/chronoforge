@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# iOS
+*.xcuserdata
+*.xcworkspace
+DerivedData/
+build/
+.swiftpm/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
